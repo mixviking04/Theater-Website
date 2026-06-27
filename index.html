@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand Theater - Experience the Magic</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">🎭 Grand Theater</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="shows.html">Shows</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Grand Theater</h1>
+            <p>Experience the Magic of Live Performance</p>
+            <button class="cta-button" onclick="document.location='shows.html'">Explore Shows</button>
+        </div>
+    </section>
+
+    <!-- Featured Shows -->
+    <section class="featured-shows">
+        <div class="container">
+            <h2>Featured Shows</h2>
+            <div class="shows-grid">
+                <div class="show-card">
+                    <div class="show-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <h3>Hamlet</h3>
+                    <p>Shakespeare's Masterpiece</p>
+                    <span class="date">June 28 - July 15</span>
+                </div>
+                <div class="show-card">
+                    <div class="show-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <h3>The Phantom Opera</h3>
+                    <p>A Musical Journey</p>
+                    <span class="date">July 20 - August 10</span>
+                </div>
+                <div class="show-card">
+                    <div class="show-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <h3>Comedy Night Live</h3>
+                    <p>Laugh Out Loud</p>
+                    <span class="date">Every Friday & Saturday</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Info -->
+    <section class="quick-info">
+        <div class="container">
+            <div class="info-card">
+                <h3>📍 Location</h3>
+                <p>123 Theater Avenue<br>Downtown District</p>
+            </div>
+            <div class="info-card">
+                <h3>🎫 Tickets</h3>
+                <p>Reserve online or<br>call us at (555) 123-4567</p>
+            </div>
+            <div class="info-card">
+                <h3>⏰ Hours</h3>
+                <p>Tues-Sun: 10am-10pm<br>Closed Mondays</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to get news about upcoming shows</p>
+            <form class="newsletter-form" onsubmit="handleNewsletter(event)">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="submit-btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Grand Theater. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" class="social-icon">Facebook</a>
+                <a href="#" class="social-icon">Twitter</a>
+                <a href="#" class="social-icon">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
